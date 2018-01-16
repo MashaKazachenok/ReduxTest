@@ -1,0 +1,17 @@
+{
+  "name": "redux-ru-tutorial",
+  "version": "1.0.0",
+  "description": "Redux Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Maria Kazachenok",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-hot-middleware": "^2.21.0"
+  }
+}
