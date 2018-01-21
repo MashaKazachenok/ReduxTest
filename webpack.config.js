@@ -15,5 +15,17 @@ plugins: [
 
 new webpack.HotModuleReplacementPlugin(),
 
+],
+module: {
+loaders: [
+{
+loaders: ['babel-loader'],
+include: [
+path.resolve(__dirname, "src"),
+],
+test: /\.js$/,
+//plugins: ['transform-runtime'],
+}
 ]
+}
 }
