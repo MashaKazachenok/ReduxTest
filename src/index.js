@@ -1,1 +1,2 @@
-document.getElementById('root').innerHTML = 'Hi, I am ready.'
+document.getElementById('root').innerHTML = 'Hi, I am ready!'
+module.hot.accept()
