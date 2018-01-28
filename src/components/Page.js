@@ -1,4 +1,5 @@
 import React, { PropTypes, Component } from 'react'
+
 export default class Page extends Component {
 onYearBtnClick(e) {
 this.props.setYear(+e.target.innerText)
